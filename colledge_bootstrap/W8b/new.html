@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        .todo-list-item{
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+      
+              </li>   
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Messages</a>
+              </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2 class="mt-4">Dashboard</h2>
+        <table class="table table-bordered">
+            <thead>
+                <th>Name</th>
+                <th>Team</th>
+                <th>All Star</th>
+                <th>Remove</th>
+            </thead>
+            <tbody>
+                <tr class="bg-light">
+                    <td>Steph</td>
+                    <td>Warriors</td>
+                    <td>Yes</td>
+                    <td><button class="btn btn-danger btn-sm">X</button></td>
+                </tr>
+                <tr>
+                    <td>Lebron</td>
+                    <td>Cavaliers</td>
+                    <td>Yes</td>
+                    <td><button class="btn btn-danger btn-sm">x</button></td>
+                </tr>
+                <tr class="bg-light">
+                    <td>Steph</td>
+                    <td>Warriors</td>
+                    <td><p class="badge badge-warning">Yes</p></td>
+                    <td><button class="btn btn-danger btn-sm">X</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 class="mt-4">To Dos</h2>
+        <div class="todo-list">
+        <div classs="todo-list-item bg-success text-white p-2 mb-1" style="background-color: aquamarine;">FEEL good about bootstrap</div>
+        <div classs="todo-list-item bg-success text-white p-2 mb-1" style="background-color: rgb(232, 127, 255);">FEEL good about bootstrap</div>
+        </div>
+    </div>
+</body>
+</html>
